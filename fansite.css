@@ -1,0 +1,455 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+
+*{
+    font-family: 'Roboto', sans-serif;
+  
+    margin: 0;padding: 0;
+}
+
+
+header{
+    height: 150px;
+    background: rgb(238, 233, 233);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#ligne-noir{
+    height: 10px;
+    background-color: black;
+}
+#logo_20{
+    padding-left: 70px; 
+}
+
+#logo{   
+    width: 130px;
+    clip-path:ellipse(50% 50%);  
+}
+
+/*################# header.css #########"*/
+
+.m-link{
+    text-decoration: none;  /*enlever les soulignements des liens*/
+    color: black;
+    font-weight: 700;    /* grossir la police*/
+    padding: 0px; margin: 0px 0px;  /*espacer 0px en haut et en bas et 15 px des cotés*/
+    padding-right: 50px;   
+}
+
+.spikes {
+    position: relative;
+    background: #2c3e50;
+    height: 50vh;
+}
+    
+/*####################### block -2  presentation + photo #######################*/
+.block_2{
+  height: 2000px;
+}
+.blockpresentation { 
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;   
+}
+
+.m-right1{       
+    width: 60%;
+    padding:1px;
+    background: rgb(238, 233, 233);
+    background-size: auto;
+    color: black;
+
+}
+
+.nadirtitre1{
+  text-align: center;
+  font-size: 30px;
+  
+}
+.m-right11{
+  margin-left: 130px;
+  margin-top: 130px;
+  padding-left: 10px;
+  width: 800px;
+  text-align: center;
+  line-height: 35px;
+}
+
+.m-left1{     /* block de photo profil nadir*/
+    width: 40%;
+    background: rgb(238, 233, 233);
+}
+
+#nadirphoto {     /*  photo profil nadir*/
+    width: 70vh; 
+    margin-left: 40px;
+    margin-top: 25px;   
+ }
+
+ #ligne-noir{
+  height: 10px;
+  background-color: black;
+}
+/*######################SLIDE PHOTOS#################*/
+.carousel-item{
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-reapet;
+  width: auto;
+  height: 100vh;
+}
+
+ /*###############block videos#####################*/
+
+ #block_5 {
+  padding: 60px;
+  background: rgb(238, 233, 233);
+  background-size: auto;
+  color: black; 
+}
+
+#block_5 h2 {  
+    text-align: center;
+}
+
+#block_5 p {
+  font-size: 1.1em;   
+  text-align: center;
+  margin: 30px;
+}
+
+#videos {
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#video_element {
+  display: flex;
+  justify-content: space-between;
+}
+
+iframe {
+  border: 0px;
+  width: 500px;
+  height: 400px;
+}
+
+
+/*################### FOOTER  contact #########################""*/
+
+.footer-distributed {
+  background: white;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  font: bold 16px sans-serif;
+  text-align: left;
+  padding: 50px 60px 40px;
+  overflow: hidden;
+}
+
+/* Footer left */
+.footer-distributed .footer-left {
+  float: left;
+}
+
+
+.footer-left span {
+    width: 20%;
+}
+
+/* Footer links */
+.footer-distributed .footer-links {
+  color: black;
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+.footer-distributed .footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Footer social icons */
+.footer-distributed .footer-icons {
+  margin-top: 40px;
+}
+
+.footer-distributed .footer-icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #33383b;
+  border-radius: 2px;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+  float: right;
+}
+
+.footer-distributed .footer-right p {
+  display: inline-block;
+  vertical-align: top;
+  margin: 15px 42px 0 0;
+  color: black;
+}
+
+/*  contact  */
+
+.footer-distributed form {
+  display: inline-block;
+}
+
+.footer-distributed form input,
+.footer-distributed form textarea {
+  display: block;
+  border-radius: 3px;
+  box-sizing: border-box;
+  background-color: #1f2022;
+  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+  border: none;
+  resize: none;
+  font: inherit;
+  font-size: 14px;
+  font-weight: normal;
+  color: #5c666b;
+
+  width: 400px;
+  padding: 18px;
+}
+
+.footer-distributed ::-webkit-input-placeholder {
+  color: #5c666b;
+}
+
+.footer-distributed ::-moz-placeholder {
+  color: #5c666b;
+  opacity: 1;
+}
+
+.footer-distributed :-ms-input-placeholder {
+  color: #5c666b;
+}
+
+.footer-distributed form input {
+  height: 55px;
+  margin-bottom: 15px;
+}
+
+.footer-distributed form textarea {
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.footer-distributed form button {
+  border-radius: 10px;
+  background-color: black;
+  color: #ffffff;
+  border: 0;
+  padding: 10px 30px;
+  font-weight: bold;
+  float: right;
+}
+
+
+@media (max-width: 1000px) {
+  .footer-distributed {
+    font: bold 14px sans-serif;
+  }
+
+  .footer-distributed .footer-company-name {
+    font-size: 12px;
+  }
+
+  .footer-distributed form input,
+  .footer-distributed form textarea {
+    width: 250px;
+  }
+
+  .footer-distributed form button {
+    padding: 10px 35px;
+  }
+}
+
+@media (max-width: 800px) {
+  .footer-distributed {
+    padding: 30px;
+  }
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-right {
+    float: none;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .footer-distributed .footer-left {
+    margin-bottom: 40px;
+  }
+
+  .footer-distributed form {
+    margin-top: 30px;
+  }
+
+  .footer-distributed form {
+    display: block;
+  }
+
+  .footer-distributed form button {
+    float: none;
+  }
+}
+
+
+/*   ###########################       Page3 Galerie  #############################"   */
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 40px 20px 0 20px;
+}
+
+.container .heading{
+  width: 50%;
+  padding-bottom: 50px;
+}
+.container .heading p{
+  font-size: 3em;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #222;
+  
+}
+
+
+
+.container .box{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+}
+
+.container .box .dream{
+  display: flex;
+  flex-direction: column;
+  width: 32.5%;
+}
+
+.container .box .dream img{
+  width: 100%;
+  padding-bottom: 15px;
+  border-radius: 5px;
+}
+
+
+@media only screen and (max-width: 769px){
+    .container .box{
+   flex-direction: column;
+  }
+
+.container .box .dream{
+  width: 100%;
+}
+
+}
+@media only screen and (max-width: 643px){
+.container .heading{
+  width: 100%;
+}
+.container .heading h3{
+  font-size: 1em;
+}
+
+}
+
+/*################################# PAGE 2 Biographie  #####################################*/
+
+
+
+.blockbio { 
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;   
+}
+.nadirtitre1{
+  text-align: center;
+  font-size: 30px;
+  
+}
+.m-bio2{
+  margin-left: 0px;
+  margin-top: 0px;
+  padding-left: 0px;
+  width: 70%;
+  text-align: center;
+  line-height: 40px;
+  background: rgb(238, 233, 233);
+}
+
+.m-bio1{     /* block de photo profil nadir*/
+    width: 40%;
+    background: rgb(238, 233, 233);
+}
+
+#nadirphoto {     /*  photo profil nadir*/
+    width: 63vh; 
+    margin-left: 51px;
+    margin-top: 25px; 
+   }  
+
+   .biotitre{
+      font-size: 3em;
+      padding-bottom: 10px;
+      border-bottom: 3px solid #222;
+    
+   }
+   .biographie{
+    margin-top: 50px;
+   }
+
+   /*######################*/
+  
+
+  .pagevideos {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+
+  
+   
+  }
+  
+  iframe {
+    border: 0px;
+    width: 500px;
+    height: 400px;
+  }
+ 
